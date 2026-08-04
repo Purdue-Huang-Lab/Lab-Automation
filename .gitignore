@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+__.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Excluded folders
+code by weijian/
+0402plgatetest/
+
+# Measurement data outputs (anywhere in the project)
+*.sif
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+*.dat
+# CSV files are data by default — use 'git add -f file.csv' to force-add exceptions like IRF calibration files
+*.csv
+
+# Error/log files
+___All_Errors.txt
+
+# Claude Code local settings
+.claude/
+
+# VS Code editor history (local only)
+.history/
